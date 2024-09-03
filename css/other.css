@@ -1,0 +1,184 @@
+/* From Uiverse.io by alexruix */ 
+.group {
+    display: flex;
+    line-height: 28px;
+    align-items: center;
+    position: relative;
+    width: 70%;
+   }
+   
+   .input {
+    width: 100%;
+    height: 40px;
+    line-height: 28px;
+    padding: 0 1rem;
+    padding-left: 2.5rem;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    outline: none;
+    background-color: #f3f3f4;
+    color: #0d0c22;
+    transition: .3s ease;
+   }
+   
+   .input::placeholder {
+    color: #9e9ea7;
+   }
+   
+   .input:focus, input:hover {
+    outline: none;
+    border-color: rgba(234,76,137,0.4);
+    background-color: #fff;
+    box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
+   }
+   
+   .icon {
+    position: absolute;
+    left: 1rem;
+    fill: #9e9ea7;
+    width: 1rem;
+    height: 1rem;
+   }
+
+   /* From Uiverse.io by cssbuttons-io */ 
+.button {
+    align-items: center;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 18px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: all .3s;
+    animation: h1anm 10s ease infinite alternate;
+   }
+   
+   .button:active,
+   .button:hover {
+    outline: 0;
+   }
+   
+   .button span {
+    background-color: rgb(5, 6, 45);
+    padding: 16px 24px;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+   }
+   
+   .button:hover span {
+    background: none;
+   }
+   
+   .button:active {
+    transform: scale(0.9);
+   }
+   .abotgpa__title{
+    color: #dfdbdb;
+    text-transform: bold;
+    
+    margin-left: 10px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.abotgpa__title::after{
+    position: absolute;
+    top: 25px;
+    left: 0;
+    content: '';
+    width: 70px;
+    height: 2px;
+    padding: 2px;
+    border-radius: 15px;
+    background-color: royalblue;
+}
+   .h1{
+    color: #dfdbdb;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    
+}
+   .h1::after{
+    position: absolute;
+    top: 45px;
+    left: 0;
+    content: '';
+    width: 70px;
+    height: 2px;
+    padding: 2px;
+    border-radius: 15px;
+    background-color: royalblue;
+}
+.p{
+    font-size: clamp(0.5rem, 1cqw, 1.5rem);
+    color: #dfdbdb;;
+}
+   @keyframes h1anm {
+    0% {
+        background-image: linear-gradient(90deg, #00f2ff, rgb(174, 0, 255));
+    }
+
+    25% {
+        background-image: linear-gradient(90deg, #00aaff, rgb(255, 0, 238));
+    }
+
+    50% {
+        background-image: linear-gradient(90deg, #00ff11, rgb(225, 255, 0));
+    }
+
+    75% {
+        background-image: linear-gradient(90deg, #00f2ff, rgb(6, 255, 14));
+    }
+
+    100% {
+        background-image: linear-gradient(90deg, #a600ff, rgb(255, 0, 81));
+    }
+}
+   @media screen and (max-width:700px) {
+    .button {
+      
+        font-size: 13px;
+        justify-content: center;
+        line-height: 1em;
+        max-width: 100%;
+        min-width: 85px;
+     
+       }
+       .button span {
+        background-color: rgb(5, 6, 45);
+        padding: 8px 13px;
+        border-radius: 5px;
+        width: 100%;
+        height: 100%;
+
+       }
+       .h1{
+        font-size: 22px;
+       }
+       .h1::after{
+        top: 35px;
+       }
+       
+   }
+   
+   
+   
+   
+   
+   
