@@ -1,6 +1,8 @@
 # Afro Games
 
 Afro Games is a web application that allows users to discover, search, and download PC games. The project utilizes the RAWG API to fetch game data, including game titles, ratings, genres, and release dates. Users can search for specific games, view details, and download them directly from the website.
+</br></br>
+open this link <a href="https://kene19.github.io/Afro-games/">afro games</a>
 
 ## Features
 
